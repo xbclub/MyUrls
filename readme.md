@@ -29,7 +29,7 @@
 docker run -d \
   --name my-urls \
   -p 8888:8888 \
-  -e WebSiteURL=http://127.0.0.1:8888 \
+  -e WebSite_URL=http://127.0.0.1:8888 \
   -e REDIS_HOST=127.0.0.1:6379 \
   xbclub/my-urls:latest
 ```
