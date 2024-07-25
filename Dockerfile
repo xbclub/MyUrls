@@ -1,7 +1,7 @@
 from alpine
 run sed -i 's/dl-cdn.alpinelinux.org/mirrors.tuna.tsinghua.edu.cn/g' /etc/apk/repositories && apk --no-cache add tzdata
 add app /app/
-add etc/docker-config.yaml /app/etc/config.yaml
+add etc/docker-myurls.yaml /app/etc/config.yaml
 workdir /app
 ENV REDIS_TYPE="node" \
     REDIS_PASS="" \
