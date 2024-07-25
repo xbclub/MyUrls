@@ -1,0 +1,11 @@
+Name: MyUrls
+Host: 0.0.0.0
+Port: 8888
+Redis:
+  Host: ${REDIS_HOST}
+  Type: ${REDIS_TYPE}
+  Pass: ${REDIS_PASS}
+  Tls: ${REDIS_TLS}
+WebSiteURL: ${WebSite_URL}
+ShortKeyLength: ${ShortKeyLength}
+ShortKeyTTL: ${ShortKeyTTL}
